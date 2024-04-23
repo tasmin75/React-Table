@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
